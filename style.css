@@ -416,21 +416,30 @@ a{
     .register .text button{
         padding: 8px;
     }
+    .fram .right{
+        padding-left: 10px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .special h1{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
 }
 
 .footer{
+    width: 100%;
     padding: 40px 0;
     background: #F2F6FF;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer p{
     font-size: 15px;
     color: #00000080;
-    margin-right: 200px;
     margin-bottom: 20px;
 }
 
@@ -444,4 +453,13 @@ a{
 .footer ul li a{
     margin-left: 40px;
     color: #000;
+}
+@media (max-width: 600px) {
+    .footer{
+        background: #F2F6FF;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
